@@ -3,11 +3,7 @@ Serverspec test for the [aws-ec2-terraform](https://github.com/swiftsoftwaregrou
 
 ## Setup for macOS
 
-### AWS CLI
-
-[Setup macOS for AWS Cloud DevOps](https://blog.swiftsoftwaregroup.com/setup-macos-for-aws-cloud-devops)
-
-[AWS Authentication](https://blog.swiftsoftwaregroup.com/aws-authentication)
+### rbenv
 
 Install `rbenv` via Homebrew:
 
@@ -83,6 +79,7 @@ bundle init
 
 # test framework
 bundle add serverspec
+
 # needed for ssh connections
 bundle add ed25519
 bundle add bcrypt_pbkdf
